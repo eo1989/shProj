@@ -6,7 +6,7 @@ function! Fzf_checkout_branch(b)
     let l:str = split(a:b[1], '* ')
     let l:branch = get(l:str, 1, '')
     if exists('g:loaded_fugitive')
-        let cmd = get({'ctrl-x' 'Git branch -d '}, a:b[0], 'Git checkout ')
+        let cmd = get({'ctrl-x': 'Git branch -d '}, a:b[0], 'Git checkout ')
         try
             execute cmd . a:b[1]
         catch
@@ -25,5 +25,5 @@ let s:branch_log =
             \'--preview "(git log --color=always --graph --abbrev-commit --decorate --first-parent --{})"'
 
 " Home made git branch functionality
-command! Branches call fzf#run(fzf#warap('Branches',
+command! Branches call fzf#run(fzf#wrap('Branches',
         \ extend(branch_options, {'options': s:branch_log})))
