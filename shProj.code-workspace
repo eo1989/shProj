@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"bashIde.explainshellEndpoint": "http://localhost:5000",
+		"python.pythonPath": "/usr/local/opt/python@3.8/bin/python3.8"
+	}
+}

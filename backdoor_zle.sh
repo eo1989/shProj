@@ -1,6 +1,6 @@
-#!/usr/local/zsh
+#!/usr/local/sh
 
-if [[$1 == -f ]]; then
+if [[ $1 == -f ]]; then
     shift
     local fifo
     exec {fifo}<>$1

@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/62f0144/
+Branches	fzf_checkout_branch.vim	/^command! Branches call fzf#run(fzf#wrap('Branches',$/;"	c
+Fzf_checkout_branch	fzf_checkout_branch.vim	/^function! Fzf_checkout_branch(b)$/;"	f
+GetFzfDiags	coc_fzf.vim	/^function! GetFzfDiags() abort$/;"	f
+_fzf_complete_export	fzf-zsh.sh	/^_fzf_complete_export() {$/;"	f
+_fzf_complete_gopass	fzf-zsh.sh	/^_fzf_complete_gopass() {$/;"	f
+_fzf_complete_grepenv	fzf-zsh.sh	/^_fzf_complete_grepenv() {$/;"	f
+_fzf_complete_hsub	fzf-zsh.sh	/^_fzf_complete_hsub() {$/;"	f
+_fzf_complete_journal	fzf-zsh.sh	/^_fzf_complete_journal(){$/;"	f
+_fzf_complete_jsf	fzf-zsh.sh	/^_fzf_complete_jsf(){$/;"	f
+_fzf_complete_juf	fzf-zsh.sh	/^_fzf_complete_juf(){$/;"	f
+_fzf_complete_kill	fzf-zsh.sh	/^_fzf_complete_kill() {$/;"	f
+_fzf_complete_man	fzf-zsh.sh	/^_fzf_complete_man(){$/;"	f
+_fzf_complete_pass	fzf-zsh.sh	/^_fzf_complete_pass() {$/;"	f
+_fzf_complete_path	fzf-zsh.sh	/^_fzf_complete_path() {$/;"	f
+_fzf_complete_sms	fzf-zsh.sh	/^_fzf_complete_sms(){$/;"	f
+_fzf_complete_t	fzf-zsh.sh	/^_fzf_complete_t(){$/;"	f
+_fzf_complete_task	fzf-zsh.sh	/^_fzf_complete_task(){$/;"	f
+_fzf_complete_unalias	fzf-zsh.sh	/^_fzf_complete_unalias() {$/;"	f
+_fzf_complete_unset	fzf-zsh.sh	/^_fzf_complete_unset() {$/;"	f
+_fzf_history_appender	fzf-zsh.sh	/^_fzf_history_appender() {$/;"	f
+branch_options	fzf_checkout_branch.vim	/^let branch_options = {'source': '(git branch -a )',$/;"	v
+pytest cache directory	.pytest_cache/README.md	/^# pytest cache directory #$/;"	c
+python.testing.nosetestsEnabled	.vscode/settings.json	/^    "python.testing.nosetestsEnabled": false$/;"	b
+python.testing.promptToConfigure	.vscode/settings.json	/^    "python.testing.promptToConfigure": false,$/;"	b
+python.testing.pytestEnabled	.vscode/settings.json	/^    "python.testing.pytestEnabled": false,$/;"	b
+python.testing.unittestEnabled	.vscode/settings.json	/^    "python.testing.unittestEnabled": false,$/;"	b
+s:DebugCoc	coc_fzf.vim	/^function! s:DebugCoc() abort$/;"	f
+s:TYPE	coc_fzf.vim	/^let s:TYPE = {'dict': type({}), 'funcref': type(function('call')), 'string': type(''), 'list': t/;"	v
+s:action_for	coc_fzf.vim	/^function! s:action_for(key, ...)$/;"	f
+s:branch_log	fzf_checkout_branch.vim	/^let s:branch_log = $/;"	v
+s:build_quickfix_list	coc_fzf.vim	/^function! s:build_quickfix_list(lines)$/;"	f
+s:default_action	coc_fzf.vim	/^let s:default_action = {$/;"	v
+s:error_handler	coc_fzf.vim	/^function! s:error_handler(err) abort$/;"	f
+s:format_coc_diagnostic	coc_fzf.vim	/^function! s:format_coc_diagnostic(item) abort$/;"	f
+s:format_qf_diags	coc_fzf.vim	/^function! s:format_qf_diags(item) abort$/;"	f
+s:get_current_diagnostics	coc_fzf.vim	/^function! s:get_current_diagnostics() abort$/;"	f
+s:osascript	coc_fzf.vim	/^function! s:osascript(...) abort$/;"	f
+s:parse_error	coc_fzf.vim	/^function! s:parse_error(err) abort$/;"	f
+s:syntax	coc_fzf.vim	/^function! s:syntax() abort$/;"	f
+s:system	coc_fzf.vim	/^function! s:system(cmd)$/;"	f
+update_shell	brew_bundle1.sh	/^update_shell() {$/;"	f
